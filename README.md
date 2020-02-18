@@ -31,3 +31,16 @@
 - CSS (estilo)
 - JavaScript (inteligencia)
 
+# back-end
+- servidor
+- responsavel por:
+  - regras de negócio
+  - dados
+  - receber pedidos do cliente 
+
+# tecnologias ultilizadas
+- node.js
+- postgreSQL (SQL)
+
+# node
+- interpretador de javaScript   
