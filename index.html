@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title> Doe Sangue! Doe Vida!</title>
 </head>
 
 <body>
     <header>
-        <img class="logo" src="logo.png" alt="logo campanha doação de sangue">
+        <img class="logo" src="/logo.png" alt="logo campanha doação de sangue">
         <h2>A sua doação importa</h2>
         <p>Até 3 vidas com 1 doação</p>
         <p>Mais de 38.000 doações são necessarias todos os dias</p>
@@ -21,8 +21,8 @@
     </header>
     <section class="form hide">
         <h2>Entre na lista de doadores</h2>
-        <form action="/">
-            <input name="input" type="text" placeholder="Complete Name">
+        <form action="/" method="POST">
+            <input name="name" type="text" placeholder="Complete Name">
             <input name="blood" type="text" placeholder="Blood Type">
             <input name="email" type="text" placeholder="Email">
             <button>Quero ajudar</button>
@@ -32,26 +32,17 @@
         <h2>Ultimos <span>Doadores</span></h2>
 
         <section class="donors">
+
+            {% for donor in donors%}
             <div class="donor">
-                <div class="blood">AB+</div>
-                <p>Vinicius Dos Santos</p>
+                <div class="blood">{{donor.blood}}</div>
+                <p>{{donor.name}}</p>
             </div>
-            <div class="donor">
-                <div class="blood">A+</div>
-                <p>Ana Claudia</p>
-            </div>
-            <div class="donor">
-                <div class="blood">B+</div>
-                <p>Robson Dos Santos</p>
-            </div>
-            <div class="donor">
-                <div class="blood">O+</div>
-                <p>Robinho Fenomeno</p>
-            </div>
+            {%endfor%}
         </section>
     </main>
     <footer> Com <span class="heart">❤</span> Default</footer>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>

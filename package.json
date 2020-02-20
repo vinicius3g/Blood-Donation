@@ -4,8 +4,7 @@
   "description": "- ensinar o computador \r - algoritmos\r   - conjunto de regras \r - softwares\r - linguagem",
   "main": "script.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
-
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/viniciusdefault/MaratonaDEv#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.0"
   }
 }
