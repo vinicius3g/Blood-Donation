@@ -1,4 +1,5 @@
-![index](https://prnt.sc/r725z7)
+# preview
+![](https://prnt.sc/r725z7)
 
 # oque é programação ?
 - ensinar o computador 
