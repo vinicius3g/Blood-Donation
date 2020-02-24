@@ -44,3 +44,19 @@
 
 # node
 - interpretador de javaScript   
+
+# banco de dados
+- dados não podem ficar na aplicação
+- perde/corromper
+- segurança
+- respondabilidades
+
+# sql
+- structure query language (linguagem de consulta estruturada)
+- não é uma linguagem de programação
+- linguagem para criar as tabelas, buscar od dados nas tabelas, atualizar ou apagar.
+
+# postgres
+- sistema gerenciador de banco de dados  relacional(sgbdr)
+- open source
+- gratuito
